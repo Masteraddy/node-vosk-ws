@@ -1,0 +1,21 @@
+{
+  "name": "voskwebsocket",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js",
+    "start": "node server.js",
+    "unzip": "node unzip.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.1.4",
+    "nodemon": "^2.0.22",
+    "unzipper": "^0.10.14",
+    "vosk": "^0.3.39",
+    "ws": "^8.13.0"
+  }
+}
